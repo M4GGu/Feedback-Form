@@ -1,0 +1,39 @@
+body{
+    background-image: linear-gradient(to bottom,white,green);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    font-family: monospace,sans-serif;
+    font-weight: bold;
+
+}
+
+h1{
+    background-color: rgb(133, 117, 223);
+    box-shadow: 3px 4px 1px rgb(109, 90, 216),3px 4px 1px rgb(109, 90, 216) inset;
+    border-radius: 12px;
+    text-shadow: 3px 4px 1px rgb(109, 90, 216);
+    font-size: 25px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: wrap-reverse;
+}
+
+legend{
+    text-transform: uppercase;
+    font-family: monospace,sans-serif;
+    font-size: large;
+    color:rgb(1, 2, 14);
+}
+
+fieldset{
+    background-color: rgb(133, 117, 223);
+}
+
+.container__footer{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+}
